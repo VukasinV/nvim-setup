@@ -3,6 +3,6 @@
 -- Add any additional keymaps here
 --
 vim.keymap.set("i", "jj", "<Esc>", { noremap = true, silent = true })
-vim.keymap.set("n", "<C-_>", function()
-  require("toggleterm").toggle()
-end)
+-- vim.keymap.set("n", "<C-_>", function()
+--   require("toggleterm").toggle()
+-- end)
